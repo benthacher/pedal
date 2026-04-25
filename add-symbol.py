@@ -56,7 +56,7 @@ def merge_symbols(symbol_file, symbols: list[str]):
         out.write(FOOTER)
     
     # delete added symbols
-    for added in added_syms:
+    for added in added_names:
         os.unlink(added)
 
     print(f"Existing in symbol file: {len(existing_syms)}")
