@@ -5155,7 +5155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32H745XIH6:BGA265C80P17X17_1400X1400X120"
+		(property "Footprint" "footprints:BGA265C80P17X17_1400X1400X120"
 			(at 200.66 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6205,7 +6205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32H745XIH6:BGA265C80P17X17_1400X1400X120"
+		(property "Footprint" "footprints:BGA265C80P17X17_1400X1400X120"
 			(at 59.69 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7255,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32H745XIH6:BGA265C80P17X17_1400X1400X120"
+		(property "Footprint" "footprints:BGA265C80P17X17_1400X1400X120"
 			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)
