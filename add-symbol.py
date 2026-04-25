@@ -54,6 +54,10 @@ def merge_symbols(symbol_file, symbols: list[str]):
         for s in existing_syms: out.write("\t" + s.strip() + "\n\n")
         for s in added_syms:    out.write("\t" + s.strip() + "\n\n")
         out.write(FOOTER)
+    
+    # delete added symbols
+    for added in added_syms:
+        os.unlink(added)
 
     print(f"Existing in symbol file: {len(existing_syms)}")
     print(f"Added: {len(added_syms)}   Skipped (dups): {skipped}")
