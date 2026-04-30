@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(symbol "BQ25302RTE"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -385,7 +385,382 @@
 		)
 		(embedded_fonts no)
 	)
-
+	(symbol "BQ27427YZFR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BQ27427YZFR"
+			(at -10.16 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "BQ27427YZFR:IC_BQ27427YZFR"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery fuel gauge with pre-programmed chemistry and integrated sense resistor"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-BQ27427YZFRCT-ND"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ27427YZFR/Texas+Instruments/view-part/?ref=snap"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.625mm"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BQ27427YZFR/Texas+Instruments/view-part/?ref=eda"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "December 2022"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BQ27427YZFR"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "BQ27427YZFR"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "BQ27427YZFR_0_0"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "GPOUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 7.62 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional clock
+				(at -15.24 5.08 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "BIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "SRX"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 5.08 180)
+				(length 5.08)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "STM32H745XIH6"
 		(pin_names
 			(offset 1.016)
@@ -5503,7 +5878,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "TLV77018PDBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5669,7 +6043,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "TPS2116DRLR"
 		(pin_names
 			(offset 1.016)
@@ -6028,7 +6401,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "TPS2121RUXR"
 		(pin_names
 			(offset 1.016)
@@ -6511,7 +6883,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "TPS631000DRLR"
 		(pin_names
 			(offset 1.016)
@@ -6869,7 +7240,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "TYPE-C-31-M-12"
 		(pin_names
 			(offset 1.016)
@@ -7388,130 +7758,4 @@
 		)
 		(embedded_fonts no)
 	)
-
-	(symbol "BQ27427YZFR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -10.16 13.462 0)
-      (effects (font (size 1.27 1.27)) (justify bottom left))
-    )
-    (property "Value" "BQ27427YZFR" (id 1) (at -10.16 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify bottom left))
-    )
-    (property "Footprint" "BQ27427YZFR:IC_BQ27427YZFR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "DigiKey_Part_Number" "296-BQ27427YZFRCT-ND" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ27427YZFR/Texas+Instruments/view-part/?ref=snap" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "0.625mm" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Package" "None" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Check_prices" "https://www.snapeda.com/parts/BQ27427YZFR/Texas+Instruments/view-part/?ref=eda" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "PARTREV" "December 2022" (id 10) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MF" "Texas Instruments" (id 11) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MP" "BQ27427YZFR" (id 12) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Description" "\n                        \n                            Single-cell battery fuel gauge with pre-programmed chemistry and integrated sense resistor\n                        \n" (id 13) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "SNAPEDA_PN" "BQ27427YZFR" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MANUFACTURER" "Texas Instruments" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (symbol "BQ27427YZFR_0_0"
-      (rectangle (start -10.16 -12.7) (end 10.16 12.7)
-        (stroke (width 0.254)) (fill (type background))
-      )
-      (pin input line (at -15.24 7.62 0) (length 5.08)
-        (name "BAT"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "C3"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin input line (at -15.24 2.54 0) (length 5.08)
-        (name "BIN"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "B1"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin output line (at 15.24 5.08 180.0) (length 5.08)
-        (name "GPOUT"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "A1"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin bidirectional clock (at -15.24 -5.08 0) (length 5.08)
-        (name "SCL"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "A3"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin bidirectional line (at -15.24 -7.62 0) (length 5.08)
-        (name "SDA"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "A2"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin input line (at -15.24 0.0 0) (length 5.08)
-        (name "SRX"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "C2"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin output line (at 15.24 10.16 180.0) (length 5.08)
-        (name "VDD"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "B3"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin power_in line (at 15.24 -10.16 180.0) (length 5.08)
-        (name "VSS"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "B2"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin power_in line (at 15.24 -10.16 180.0) (length 5.08) hide
-        (name "VSS"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "C1"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-    )
-  )
-
 )
