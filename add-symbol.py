@@ -35,7 +35,7 @@ def read_lib_symbols(path):
 
 def merge_symbols(symbol_file, symbols: list[str]):
     existing_syms, existing_names = read_lib_symbols(symbol_file)
-    added_syms, added_names, skipped = [], set(), 0
+    added_syms, added_names, added_filenames, skipped = [], set(), set(), 0
 
     for f in sorted(symbols):
         if not f.endswith(".kicad_sym"): continue
@@ -48,15 +48,16 @@ def merge_symbols(symbol_file, symbols: list[str]):
                 continue
             added_syms.append(s)
             added_names.add(nm)
+            added_filenames.add(f)
 
     with open(symbol_file, "w", encoding="utf-8") as out:
         out.write(HEADER); out.write(HEADER2)
         for s in existing_syms: out.write("\t" + s.strip() + "\n\n")
         for s in added_syms:    out.write("\t" + s.strip() + "\n\n")
         out.write(FOOTER)
-    
+
     # delete added symbols
-    for added in added_names:
+    for added in added_filenames:
         os.unlink(added)
 
     print(f"Existing in symbol file: {len(existing_syms)}")
