@@ -3486,7 +3486,17 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U3"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV77018PDBVR"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3496,17 +3506,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3517,7 +3517,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv770.pdf?ts=1777095903427"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3606,7 +3606,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "NC"
@@ -4934,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 170.18) (xy 38.1 170.18)
+			(xy 35.56 167.64) (xy 38.1 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5064,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 165.1) (xy 38.1 165.1)
+			(xy 35.56 162.56) (xy 38.1 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 167.64) (xy 38.1 167.64)
+			(xy 35.56 165.1) (xy 38.1 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6033,7 +6033,7 @@
 		(uuid "35083b65-acb4-4de5-acb8-8af80ff6feb5")
 	)
 	(label "SCL"
-		(at 38.1 167.64 0)
+		(at 38.1 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6093,7 +6093,7 @@
 		(uuid "65e2232b-3440-4a70-84dc-d468294a9b30")
 	)
 	(label "GPOUT"
-		(at 38.1 170.18 0)
+		(at 38.1 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6333,7 +6333,7 @@
 		(uuid "e4bfbce3-e6ba-4b09-a9e1-667923ac9504")
 	)
 	(label "SDA"
-		(at 38.1 165.1 0)
+		(at 38.1 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6415,7 +6415,7 @@
 	)
 	(hierarchical_label "FUEL_GAUGE_SDA"
 		(shape input)
-		(at 35.56 165.1 180)
+		(at 35.56 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6492,7 +6492,7 @@
 	)
 	(hierarchical_label "FUEL_GAUGE_GPOUT"
 		(shape input)
-		(at 35.56 170.18 180)
+		(at 35.56 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6503,7 +6503,7 @@
 	)
 	(hierarchical_label "FUEL_GAUGE_SCL"
 		(shape input)
-		(at 35.56 167.64 180)
+		(at 35.56 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
