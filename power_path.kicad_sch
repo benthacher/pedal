@@ -2139,8 +2139,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "SW1"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2150,7 +2150,7 @@
 				)
 			)
 			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2159,7 +2159,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:SK-12E12-G060"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2182,6 +2182,17 @@
 				)
 			)
 			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22448008"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2269,6 +2280,44 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4019,7 +4068,7 @@
 	)
 	(text_box "Total power consumption when 3V3 reg is off: 9.9uA. Estimated runtime 20 years lol"
 		(exclude_from_sim no)
-		(at 243.84 147.32 0)
+		(at 236.22 134.62 0)
 		(size 20.32 14.1714)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4375,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 119.38) (xy 279.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffebbe6-7f60-4c36-be0d-bf77a1740c03")
+	)
+	(wire
+		(pts
 			(xy 187.96 55.88) (xy 187.96 58.42)
 		)
 		(stroke
@@ -4562,6 +4621,16 @@
 			(type default)
 		)
 		(uuid "2714b745-07eb-4781-bdc7-98793d92f91d")
+	)
+	(wire
+		(pts
+			(xy 264.16 124.46) (xy 261.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279877d1-faf5-4767-b9f1-6202a592a1a7")
 	)
 	(wire
 		(pts
@@ -4775,6 +4844,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 132.08) (xy 264.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498a572a-d40c-4cd2-a88e-208ac9b4d4fe")
+	)
+	(wire
+		(pts
 			(xy 147.32 139.7) (xy 147.32 142.24)
 		)
 		(stroke
@@ -4852,6 +4931,26 @@
 			(type default)
 		)
 		(uuid "563e663c-fd6d-4315-8c35-0813c1ac2a4d")
+	)
+	(wire
+		(pts
+			(xy 35.56 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57440094-af9c-4ae3-a5e5-7a190c853b76")
+	)
+	(wire
+		(pts
+			(xy 279.4 121.92) (xy 276.86 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a9ebad-5bb1-470e-9194-96b97f44f8fb")
 	)
 	(wire
 		(pts
@@ -5625,6 +5724,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 121.92) (xy 271.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd92b4b2-4479-4315-ad2d-998b75d20d1d")
+	)
+	(wire
+		(pts
 			(xy 208.28 134.62) (xy 208.28 144.78)
 		)
 		(stroke
@@ -5692,6 +5801,16 @@
 			(type default)
 		)
 		(uuid "e15c27d7-ca79-43e0-a688-9203562e1c75")
+	)
+	(wire
+		(pts
+			(xy 264.16 127) (xy 264.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5300fe4-015e-4859-9355-8c66f982ffcd")
 	)
 	(wire
 		(pts
@@ -5963,6 +6082,16 @@
 		)
 		(uuid "65e2232b-3440-4a70-84dc-d468294a9b30")
 	)
+	(label "GPOUT"
+		(at 38.1 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c8a8b52-11b1-4021-971b-4d43b974b205")
+	)
 	(label "VUSB"
 		(at 96.52 63.5 180)
 		(effects
@@ -6072,6 +6201,16 @@
 			(justify left bottom)
 		)
 		(uuid "af7ba8b3-a456-45c6-bb56-c602a2d96165")
+	)
+	(label "GPOUT"
+		(at 264.16 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b079e669-11fc-4eeb-a8ba-c1193d140f65")
 	)
 	(label "CHARGER_nEN"
 		(at 38.1 152.4 0)
@@ -6340,6 +6479,17 @@
 			(justify right)
 		)
 		(uuid "ab9342d9-f5eb-489c-8f6b-9064ef51581b")
+	)
+	(hierarchical_label "FUEL_GAUGE_GPOUT"
+		(shape input)
+		(at 35.56 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b310d24d-3b77-4ae4-a54a-e0dab07af522")
 	)
 	(hierarchical_label "FUEL_GAUGE_SCL"
 		(shape input)
@@ -7658,6 +7808,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 264.16 144.78 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33af98f8-31f2-4e43-a3ee-1776e8c40b22")
+		(property "Reference" "#PWR030"
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f31bc7b-f837-404d-95f1-951a6bee9b34")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 50.8 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -8150,10 +8379,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e366f3e-9344-4a97-93d4-dc4242d77721")
 		(property "Reference" "U7"
-			(at 149.86 109.22 0)
+			(at 149.86 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8162,8 +8390,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 149.86 124.46 0)
+		(property "Value" "BQ25302"
+			(at 149.86 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9187,6 +9415,190 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 274.32 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7988c2d2-862f-4aff-ab92-d81b88298a65")
+		(property "Reference" "R13"
+			(at 274.32 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 274.32 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "917f44d5-acff-4c14-9a50-7478de70e13f")
+		)
+		(pin "2"
+			(uuid "6d7369d7-06e6-437f-b7ce-1246559c4940")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d157dd5-edf1-4108-94d9-3584caddf3b1")
+		(property "Reference" "R12"
+			(at 266.7 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 266.7 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24ca4542-122d-438e-a705-77ab7423e5ce")
+		)
+		(pin "2"
+			(uuid "658fc854-b62d-4125-92f1-efc948332d54")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 71.12 90)
 		(unit 1)
@@ -9297,7 +9709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ27427YZFR:IC_BQ27427YZFR"
+		(property "Footprint" "footprints:IC_BQ27427YZFR"
 			(at 246.38 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11307,6 +11719,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 279.4 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcde6196-62a0-438c-921e-e76330a759f7")
+		(property "Reference" "#PWR031"
+			(at 279.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 279.4 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 279.4 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cedce48-adf4-4cda-81ea-4da8e04c4492")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 203.2 106.68 0)
 		(unit 1)
@@ -11338,7 +11828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SK-12E12-G060"
 			(at 203.2 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11387,6 +11877,12 @@
 		)
 		(pin "2"
 			(uuid "ebb0ad67-582b-4ad7-9bb1-d7c2de32be51")
+		)
+		(pin "3"
+			(uuid "7de7e3cf-8680-4088-9530-9c93f700f7a1")
+		)
+		(pin "M"
+			(uuid "65f89650-353e-42ec-a310-40f6a9c0b85d")
 		)
 		(instances
 			(project "pedal"
