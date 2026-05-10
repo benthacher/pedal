@@ -7145,9 +7145,9 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3-NC-Pad4)")
+			(net "GND")
 			(pinfunction "NC_4")
-			(pintype "no_connect")
+			(pintype "passive")
 			(uuid "cb5cc84c-5062-4317-b65c-8de278cd00fb")
 		)
 		(pad "5" smd roundrect
