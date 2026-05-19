@@ -632,7 +632,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "#PWR30-32,R12-13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -647,6 +647,10 @@
     [
       "487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3",
       "Power path"
+    ],
+    [
+      "fcca89f2-f5d5-44e1-8b43-7ff4c1465bba",
+      "display"
     ]
   ],
   "text_variables": {},

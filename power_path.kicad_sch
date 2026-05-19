@@ -9809,7 +9809,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq27427.pdf"
 			(at 246.38 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11906,7 +11906,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "G-Switch SK-12E12-G060"
 			(at 203.2 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
