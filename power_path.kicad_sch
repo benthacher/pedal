@@ -2129,18 +2129,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "custom:MK-11C04-G013"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW1"
-				(at 0 6.35 0)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2149,8 +2145,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 3.81 0)
+			(property "Value" "MK-11C04-G013"
+				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2159,7 +2155,29 @@
 					)
 				)
 			)
-			(property "Footprint" "footprints:SK-12E12-G060"
+			(property "Footprint" "custom:SW-SMD_MK-11C04-G013"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_G-Switch-MK-11C04-G013_C778185.html"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2170,7 +2188,51 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Manufacturer" "G-Switch(品赞)"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MK-11C04-G013"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C778185"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C778185"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Slide Switches"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2181,43 +2243,11 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "MK-11C04-G013_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.81 -3.81) (xy 6.35 -3.81) (xy 6.35 1.27)
 					)
-				)
-			)
-			(property "LCSC" "C22448008"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -2228,7 +2258,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -2.29 -1.27) (xy -1.27 -1.52)
 					)
 					(stroke
 						(width 0)
@@ -2238,9 +2268,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0) (xy -1.27 -0.25)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2249,12 +2280,57 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
+				(rectangle
+					(start 0.25 -0.25)
+					(end 4.57 -2.29)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.25 -1.27) (xy -2.29 -1.27) (xy -1.27 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.25) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.25) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 3.81 270)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2269,10 +2345,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
+				(pin unspecified line
+					(at 3.81 3.81 270)
 					(length 2.54)
-					(name "B"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2287,18 +2363,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
+				(pin unspecified line
+					(at 6.35 3.81 270)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2306,18 +2381,35 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
+				(pin unspecified line
+					(at -3.81 3.81 270)
 					(length 2.54)
-					(hide yes)
-					(name "M"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 3.81 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4249,6 +4341,12 @@
 		(uuid "56261db3-ad75-4772-8c32-cdb20b21c18d")
 	)
 	(junction
+		(at 194.31 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e87603-cc5f-4204-aa77-cd01f7202b57")
+	)
+	(junction
 		(at 139.7 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4259,12 +4357,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70291876-febd-4b08-b51d-b0ab9f4aa727")
-	)
-	(junction
-		(at 195.58 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c2cf12b-8cd9-4892-8a04-e13b276ee157")
 	)
 	(junction
 		(at 271.78 63.5)
@@ -4401,16 +4493,6 @@
 			(type default)
 		)
 		(uuid "099b6f90-62df-4e1f-9f3e-b0d80e0a44f4")
-	)
-	(wire
-		(pts
-			(xy 195.58 106.68) (xy 198.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb0cb6d-4875-4e32-8af8-3db7ca8ce1bc")
 	)
 	(wire
 		(pts
@@ -4654,16 +4736,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 210.82 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29000d61-1b09-4c84-890a-ba14d085e27f")
-	)
-	(wire
-		(pts
 			(xy 236.22 63.5) (xy 243.84 63.5)
 		)
 		(stroke
@@ -4724,6 +4796,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 107.95) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3012e5bc-eb1c-467e-b9e0-1d7475e9abb0")
+	)
+	(wire
+		(pts
 			(xy 114.3 132.08) (xy 124.46 132.08)
 		)
 		(stroke
@@ -4754,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 195.58 114.3)
+			(xy 194.31 107.95) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5101,16 +5183,6 @@
 			(type default)
 		)
 		(uuid "796b27e4-dcd7-4413-85dd-bfee2dd5b705")
-	)
-	(wire
-		(pts
-			(xy 195.58 114.3) (xy 231.14 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0e8774-5a0d-474b-a51e-7a0bc4b0ce56")
 	)
 	(wire
 		(pts
@@ -5594,7 +5666,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 114.3) (xy 195.58 114.3)
+			(xy 200.66 111.76) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65da22b-066c-463b-9061-d9e356e30cf0")
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5721,6 +5803,16 @@
 			(type default)
 		)
 		(uuid "d58d0112-025f-4ab9-af5b-b257310a289b")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 231.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc57af36-190f-4333-bb92-c8c4eb0d0462")
 	)
 	(wire
 		(pts
@@ -6073,7 +6165,7 @@
 		(uuid "52fe65c0-4111-49ac-9f93-1656949d22d1")
 	)
 	(label "VBATT"
-		(at 210.82 106.68 0)
+		(at 200.66 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9503,6 +9595,141 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:MK-11C04-G013")
+		(at 195.58 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731165df-79be-469a-b23a-bb4311000886")
+		(property "Reference" "SW1"
+			(at 200.66 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MK-11C04-G013"
+			(at 200.66 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:SW-SMD_MK-11C04-G013"
+			(at 195.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_G-Switch-MK-11C04-G013_C778185.html"
+			(at 195.58 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 195.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MK-11C04-G013"
+			(at 195.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C778185"
+			(at 195.58 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C778185"
+			(at 195.58 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3a2eb9d1-7a09-4d53-9d35-f44a2543f265")
+		)
+		(pin "1"
+			(uuid "a0c77ec0-f977-4547-8c68-d12f1bac50ae")
+		)
+		(pin "4"
+			(uuid "4303f641-0528-4471-a1b7-c4d803dc174e")
+		)
+		(pin "2"
+			(uuid "b93f08cb-b54f-4dad-afdc-89f45ae30ad6")
+		)
+		(pin "C"
+			(uuid "0b51f1f6-173f-4fbd-ad95-af29daa68aea")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 274.32 121.92 90)
 		(unit 1)
@@ -11879,103 +12106,6 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 203.2 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e25f1877-4c5a-4dcb-b5b2-bed7723197c9")
-		(property "Reference" "SW1"
-			(at 203.2 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G-Switch SK-12E12-G060"
-			(at 203.2 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SK-12E12-G060"
-			(at 203.2 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 203.2 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22448008"
-			(at 203.2 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3aeab5fd-5037-41f3-b7a8-56a54bc3255c")
-		)
-		(pin "2"
-			(uuid "ebb0ad67-582b-4ad7-9bb1-d7c2de32be51")
-		)
-		(pin "3"
-			(uuid "7de7e3cf-8680-4088-9530-9c93f700f7a1")
-		)
-		(pin "M"
-			(uuid "65f89650-353e-42ec-a310-40f6a9c0b85d")
-		)
-		(instances
-			(project "pedal"
-				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
