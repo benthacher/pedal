@@ -4722,7 +4722,7 @@
 		)
 		(uuid "c82c3805-924b-4a67-9109-a7370d0da2fe")
 	)
-	(text_box "Fast charge (ICHG = 0) = 1.681A\nSlow charge (ICHG = 1) = 0.2A"
+	(text_box "Fast charge (ICHG = 0) = 2A\nSlow charge (ICHG = 1) = 0.2A"
 		(exclude_from_sim no)
 		(at 116.84 154.94 0)
 		(size 50.7999 5.9929)
@@ -5029,6 +5029,16 @@
 			(type default)
 		)
 		(uuid "100da6fc-6111-4480-9c5e-f89a1961d66d")
+	)
+	(wire
+		(pts
+			(xy 35.56 152.4) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116a73a0-d098-4a05-9adb-ccf191319b17")
 	)
 	(wire
 		(pts
@@ -5519,16 +5529,6 @@
 			(type default)
 		)
 		(uuid "54b18f3d-6bf4-4391-b124-2fbecf29974e")
-	)
-	(wire
-		(pts
-			(xy 35.56 152.4) (xy 38.1 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563e663c-fd6d-4315-8c35-0813c1ac2a4d")
 	)
 	(wire
 		(pts
@@ -6890,16 +6890,6 @@
 		)
 		(uuid "b079e669-11fc-4eeb-a8ba-c1193d140f65")
 	)
-	(label "CHARGER_nEN"
-		(at 38.1 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b782bc1b-682f-4bd1-a0bf-245c1c8ae2e7")
-	)
 	(label "BATT_TS"
 		(at 96.52 177.8 0)
 		(effects
@@ -6959,6 +6949,16 @@
 			(justify right bottom)
 		)
 		(uuid "c7c8c053-9ade-4e32-888f-88d3b990cc70")
+	)
+	(label "CHARGER_nEN"
+		(at 38.1 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb8075e1-eb42-417f-a26f-019c19d79add")
 	)
 	(label "BATT_TS"
 		(at 165.1 124.46 0)
@@ -9861,7 +9861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "22k"
 			(at 127 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,7 +9905,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25771"
+		(property "LCSC" "C25768"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
