@@ -4558,16 +4558,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 177.8) (xy 154.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142e7bce-0002-4fc0-9298-8d7e329f26ee")
-	)
-	(wire
-		(pts
 			(xy 104.14 137.16) (xy 104.14 144.78)
 		)
 		(stroke
@@ -6435,6 +6425,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4bfbce3-e6ba-4b09-a9e1-667923ac9504")
+	)
+	(label "VBATT_RAW"
+		(at 208.28 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4f3a7af-b99e-44a8-964e-42c474e932cb")
 	)
 	(label "SDA"
 		(at 38.1 162.56 0)
@@ -9190,7 +9190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "23.2k"
 			(at 142.24 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9201,7 +9201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9224,6 +9224,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 139.7 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25873"
 			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12340,7 +12351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "4.53k"
 			(at 142.24 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +12362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12374,6 +12385,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 139.7 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C79537"
 			(at 139.7 172.72 0)
 			(hide yes)
 			(show_name no)
