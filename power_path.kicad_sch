@@ -2648,6 +2648,389 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:BQ25302RTE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BQ25302RTE_1_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "REGN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "ICHG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "POL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "nEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "TS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "BTST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "PMID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom:MK-11C04-G013"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2932,6 +3315,365 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:TPS631000DRLR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS631000DRLR"
+				(at 6.858 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "custom:SOT50P160X60-8N"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.5-A output current, high-power-density buck-boost converter"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey_Part_Number" "296-TPS631000DRLRCT-ND"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" "124400"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOT-583 Texas Instruments"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at -0.254 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TPS631000DRLR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPS631000DRLR_0_0"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS631000DRLR_1_0"
+				(pin output line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "LX2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "LX1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3322,389 +4064,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols:BQ25302RTE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BQ25302RTE_1_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "REGN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "STAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "ICHG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "POL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "nEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "TS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -15.24 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "VSET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(hide yes)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "BTST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "PMID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4256,374 +4615,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:TPS631000DRLR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at -17.018 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS631000DRLR"
-				(at -17.018 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprints:SOT50P160X60-8N"
-				(at -2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1.5-A output current, high-power-density buck-boost converter"
-				(at 12.446 -23.114 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "DigiKey_Part_Number" "296-TPS631000DRLRCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=snap"
-				(at 12.446 -23.114 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_PACKAGE_ID" "124400"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "SOT-583 Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=eda"
-				(at 12.446 -23.114 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "TPS631000DRLR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "LCSC" "C5219190"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TPS631000DRLR_0_0"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPS631000DRLR_1_0"
-				(pin output line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 2.54 15.24 270)
-					(length 2.54)
-					(name "LX2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "LX1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Low: Battery, Hi-Z: USB"
 		(exclude_from_sim no)
@@ -4719,7 +4710,7 @@
 	)
 	(text_box "Needed for LCD VDDIO rail"
 		(exclude_from_sim no)
-		(at 248.92 45.3024 0)
+		(at 251.46 45.3024 0)
 		(size 15.24 8.0376)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4830,6 +4821,12 @@
 		(uuid "1dda36f5-9e94-48b9-af18-1afba6aae635")
 	)
 	(junction
+		(at 228.6 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23496f98-c39a-410e-b9d5-7fd35c929bf1")
+	)
+	(junction
 		(at 218.44 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4846,6 +4843,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "429b2200-8489-49ad-907a-3412ac4a7995")
+	)
+	(junction
+		(at 218.44 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45dd11e2-f26a-4d59-93ae-fb29560d13af")
 	)
 	(junction
 		(at 208.28 63.5)
@@ -4884,7 +4887,7 @@
 		(uuid "70291876-febd-4b08-b51d-b0ab9f4aa727")
 	)
 	(junction
-		(at 271.78 63.5)
+		(at 274.32 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7df0e872-176d-4783-8afa-22d1fd5ce774")
@@ -4902,12 +4905,6 @@
 		(uuid "8b6ef163-9363-4652-8a23-6f7c63885749")
 	)
 	(junction
-		(at 218.44 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9464c9e9-7380-48ba-9b2b-0bae959c3005")
-	)
-	(junction
 		(at 228.6 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4920,7 +4917,7 @@
 		(uuid "a6b356f1-3367-4701-9c28-e51630b9ce24")
 	)
 	(junction
-		(at 236.22 63.5)
+		(at 238.76 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a722f90e-53ee-435c-94d5-18c7256c62bb")
@@ -4950,7 +4947,7 @@
 		(uuid "e74db89f-2918-4d3b-ac5f-6e3ef8d507df")
 	)
 	(junction
-		(at 243.84 63.5)
+		(at 246.38 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeac268c-d8d4-4b11-a0da-2ee775d5bdcf")
@@ -5013,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 63.5) (xy 246.38 63.5)
+			(xy 246.38 63.5) (xy 248.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +5090,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 60.96) (xy 218.44 63.5)
+			(xy 228.6 60.96) (xy 228.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5293,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 73.66) (xy 256.54 83.82)
+			(xy 259.08 73.66) (xy 259.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5303,7 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 63.5) (xy 243.84 63.5)
+			(xy 238.76 63.5) (xy 246.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5463,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 76.2) (xy 271.78 83.82)
+			(xy 274.32 76.2) (xy 274.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 236.22 83.82)
+			(xy 238.76 76.2) (xy 238.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5510,6 +5507,16 @@
 			(type default)
 		)
 		(uuid "473c5c51-16ce-4e45-a724-abe1410c6656")
+	)
+	(wire
+		(pts
+			(xy 228.6 63.5) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48416d13-e267-4cde-9efa-9241cf856e0c")
 	)
 	(wire
 		(pts
@@ -5723,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 68.58) (xy 243.84 68.58)
+			(xy 248.92 68.58) (xy 246.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5803,6 +5810,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 76.2) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eb0f4a-1ef3-4a39-bfbd-65d2bba81d9c")
+	)
+	(wire
+		(pts
 			(xy 30.48 38.1) (xy 33.02 38.1)
 		)
 		(stroke
@@ -5823,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 63.5) (xy 236.22 71.12)
+			(xy 238.76 63.5) (xy 238.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5983,6 +6000,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 63.5) (xy 218.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f9b578-7ade-4581-9759-8ddb867db511")
+	)
+	(wire
+		(pts
 			(xy 99.06 73.66) (xy 99.06 76.2)
 		)
 		(stroke
@@ -6063,7 +6090,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 68.58) (xy 266.7 83.82)
+			(xy 269.24 68.58) (xy 269.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6103,7 +6130,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 63.5) (xy 266.7 63.5)
+			(xy 274.32 63.5) (xy 269.24 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6223,7 +6250,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 60.96) (xy 236.22 63.5)
+			(xy 238.76 60.96) (xy 238.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6403,7 +6430,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 68.58) (xy 243.84 63.5)
+			(xy 246.38 68.58) (xy 246.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6563,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 63.5) (xy 271.78 71.12)
+			(xy 274.32 63.5) (xy 274.32 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6693,7 +6720,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 60.96) (xy 271.78 63.5)
+			(xy 274.32 60.96) (xy 274.32 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8009,248 +8036,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:TPS631000DRLR")
-		(at 185.42 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "182f9f4d-637b-45a3-a9cd-4b2761b8f119")
-		(property "Reference" "U2"
-			(at 198.12 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS631000DRLR"
-			(at 198.12 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SOT50P160X60-8N"
-			(at 182.88 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.5-A output current, high-power-density buck-boost converter"
-			(at 197.866 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DigiKey_Part_Number" "296-TPS631000DRLRCT-ND"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=snap"
-			(at 197.866 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" "124400"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOT-583 Texas Instruments"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=eda"
-			(at 197.866 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "B"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TPS631000DRLR"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC" "C5219190"
-			(at 185.42 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "5df67c21-eca2-483e-a5e9-542e10058a73")
-		)
-		(pin "8"
-			(uuid "5ab6744e-ce11-4475-ae16-346cad0a7bd2")
-		)
-		(pin "6"
-			(uuid "29385526-f041-44b2-9716-47b13b7d2a54")
-		)
-		(pin "4"
-			(uuid "c8c526e8-ec65-406c-a962-9cb8ee5f6fb2")
-		)
-		(pin "3"
-			(uuid "6043f1cf-7630-4548-9d96-b77d84205d94")
-		)
-		(pin "2"
-			(uuid "46357f67-4ec3-4412-9ce5-a431ef8fb07e")
-		)
-		(pin "5"
-			(uuid "886be78f-1185-4883-90c4-c166c081e171")
-		)
-		(pin "1"
-			(uuid "d0d58f4e-cec7-48d8-ae33-5a807c1046e0")
-		)
-		(instances
-			(project "pedal"
-				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 38.1 35.56 0)
 		(unit 1)
@@ -8770,6 +8555,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 228.6 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c260e45-77c3-4d94-bc35-157d9734133e")
+		(property "Reference" "#PWR044"
+			(at 228.6 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ce5313-8e03-4736-87f9-a26f5fdee677")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 144.78 160.02 90)
 		(unit 1)
@@ -9019,6 +8882,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 228.6 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bc22d6-45ed-48dc-8891-c5e15547ac15")
+		(property "Reference" "C17"
+			(at 231.14 72.3962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 231.14 74.9362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 228.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 228.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 228.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e0a2199-2953-4f3b-ab01-6b9660da2376")
+		)
+		(pin "1"
+			(uuid "34ffb260-7da2-415a-9435-2574b99ad803")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 104.14 0)
 		(unit 1)
@@ -9098,7 +9065,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 236.22 73.66 0)
+		(at 238.76 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9109,7 +9076,7 @@
 		(fields_autoplaced yes)
 		(uuid "36697c38-cf37-406c-ac0e-7059987d872b")
 		(property "Reference" "C4"
-			(at 238.76 72.3962 0)
+			(at 241.3 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9120,7 +9087,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 238.76 74.9362 0)
+			(at 241.3 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9131,7 +9098,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9142,7 +9109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9153,7 +9120,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9164,7 +9131,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9175,7 +9142,7 @@
 			)
 		)
 		(property "voltage" "25"
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,110 +9270,6 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 218.44 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d914ac0-5da8-4361-986f-d41d46023f5b")
-		(property "Reference" "C1"
-			(at 220.98 72.3962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 220.98 74.9362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 218.44 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 218.44 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C16780"
-			(at 218.44 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "6.3V"
-			(at 218.44 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dc5a234b-806f-4db7-b20e-54447e4ae1c6")
-		)
-		(pin "1"
-			(uuid "c9965c20-4dad-400b-aafd-b3cd37f017c0")
-		)
-		(instances
-			(project "pedal"
-				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9579,7 +9442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:BQ25302RTE")
+		(lib_id "custom:BQ25302RTE")
 		(at 149.86 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -9715,7 +9578,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 83.82 0)
+		(at 269.24 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9726,7 +9589,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e73ce77-a3cb-460b-ad15-4711677528d7")
 		(property "Reference" "#PWR032"
-			(at 266.7 90.17 0)
+			(at 269.24 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +9600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 88.9 0)
+			(at 269.24 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9747,7 +9610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 83.82 0)
+			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9758,7 +9621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 83.82 0)
+			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9769,7 +9632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 83.82 0)
+			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10450,7 +10313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 83.82 0)
+		(at 274.32 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10461,7 +10324,7 @@
 		(fields_autoplaced yes)
 		(uuid "7013be77-d997-4827-af55-22accce253d3")
 		(property "Reference" "#PWR010"
-			(at 271.78 90.17 0)
+			(at 274.32 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10472,7 +10335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 88.9 0)
+			(at 274.32 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10482,7 +10345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 83.82 0)
+			(at 274.32 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10493,7 +10356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 83.82 0)
+			(at 274.32 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10504,7 +10367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 83.82 0)
+			(at 274.32 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11608,7 +11471,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 83.82 0)
+		(at 259.08 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11619,7 +11482,7 @@
 		(fields_autoplaced yes)
 		(uuid "8892fd71-744b-4742-8b1e-1ab801ce6624")
 		(property "Reference" "#PWR09"
-			(at 256.54 90.17 0)
+			(at 259.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +11493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 88.9 0)
+			(at 259.08 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11640,7 +11503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 83.82 0)
+			(at 259.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11651,7 +11514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 83.82 0)
+			(at 259.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11662,7 +11525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 83.82 0)
+			(at 259.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12102,7 +11965,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 271.78 73.66 0)
+		(at 274.32 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12113,7 +11976,7 @@
 		(fields_autoplaced yes)
 		(uuid "a24b4241-df18-41c6-b513-e71b29fa3c30")
 		(property "Reference" "C3"
-			(at 274.32 72.3962 0)
+			(at 276.86 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12124,7 +11987,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 274.32 74.9362 0)
+			(at 276.86 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12135,7 +11998,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 271.78 73.66 0)
+			(at 274.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12146,7 +12009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 73.66 0)
+			(at 274.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12157,7 +12020,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 271.78 73.66 0)
+			(at 274.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12168,7 +12031,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 271.78 73.66 0)
+			(at 274.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,7 +12058,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 218.44 60.96 0)
+		(at 228.6 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12206,7 +12069,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7df1c71-0677-48dd-b6a5-17a442027583")
 		(property "Reference" "#PWR04"
-			(at 218.44 64.77 0)
+			(at 228.6 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12217,7 +12080,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 218.44 55.88 0)
+			(at 228.6 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12227,7 +12090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 60.96 0)
+			(at 228.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12238,7 +12101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 60.96 0)
+			(at 228.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12249,7 +12112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 218.44 60.96 0)
+			(at 228.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +12214,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 83.82 0)
+		(at 238.76 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12362,7 +12225,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2afea29-1e7e-482e-bea8-331444e876b2")
 		(property "Reference" "#PWR011"
-			(at 236.22 90.17 0)
+			(at 238.76 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +12236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 88.9 0)
+			(at 238.76 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12383,7 +12246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 83.82 0)
+			(at 238.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12394,7 +12257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 83.82 0)
+			(at 238.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12405,7 +12268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 83.82 0)
+			(at 238.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12892,7 +12755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12925,7 +12788,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5672"
+		(property "LCSC" "C45783"
 			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12936,7 +12799,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12957,6 +12820,110 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d59bd683-68ee-4f7a-9e97-0387fe374bbb")
+		(property "Reference" "C15"
+			(at 220.98 72.3962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 220.98 74.9362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b4cba7c4-d613-4828-8533-74dca9ebc962")
+		)
+		(pin "1"
+			(uuid "3d8369d1-4953-4bca-a3f6-72067aec4d46")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13763,7 +13730,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 236.22 60.96 0)
+		(at 238.76 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13774,7 +13741,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8d8e9ac-d0cf-4152-8488-c1ca307cded5")
 		(property "Reference" "#PWR08"
-			(at 236.22 64.77 0)
+			(at 238.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13785,7 +13752,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 236.22 55.88 0)
+			(at 238.76 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13795,7 +13762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 60.96 0)
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13806,7 +13773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 60.96 0)
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13817,7 +13784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 60.96 0)
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14173,6 +14140,248 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:TPS631000DRLR")
+		(at 185.42 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1929682-ae9c-441e-9c76-877c56fbf756")
+		(property "Reference" "U2"
+			(at 198.12 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS631000DRLR"
+			(at 198.12 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SOT50P160X60-8N"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5-A output current, high-power-density buck-boost converter"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-TPS631000DRLRCT-ND"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=snap"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "124400"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-583 Texas Instruments"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=eda"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 185.166 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPS631000DRLR"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C5219190"
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "d5488b49-b61b-4518-8d87-c05dc1883cad")
+		)
+		(pin "8"
+			(uuid "c8c7c9c1-a8ce-4235-ace3-a10633454cf4")
+		)
+		(pin "6"
+			(uuid "da7d1a55-cd96-4b42-abaa-7ef03bf62fce")
+		)
+		(pin "4"
+			(uuid "10309a1b-3445-42bc-856e-27c7154891c8")
+		)
+		(pin "3"
+			(uuid "da61a123-5f62-44aa-a838-919269758eda")
+		)
+		(pin "2"
+			(uuid "58a6a6cb-ad76-4f31-af0a-d11878329d5d")
+		)
+		(pin "5"
+			(uuid "6a567b1f-4aaf-49c0-a5b6-25e7deeb80db")
+		)
+		(pin "1"
+			(uuid "93a26ae3-d4c5-4cf5-89e0-8a51777dd9ed")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 144.78 0)
 		(unit 1)
@@ -14420,7 +14629,7 @@
 	)
 	(symbol
 		(lib_id "symbols:TLV77018PDBVR")
-		(at 256.54 66.04 0)
+		(at 259.08 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14430,7 +14639,7 @@
 		(dnp no)
 		(uuid "fa45fb7b-ddc3-478b-b6f6-28797bcf6f90")
 		(property "Reference" "U3"
-			(at 256.54 55.88 0)
+			(at 259.08 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14440,7 +14649,7 @@
 			)
 		)
 		(property "Value" "TLV77018PDBVR"
-			(at 256.54 58.42 0)
+			(at 259.08 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14450,7 +14659,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 256.54 66.04 0)
+			(at 259.08 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14461,7 +14670,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv770.pdf?ts=1777095903427"
-			(at 256.54 66.04 0)
+			(at 259.08 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14472,7 +14681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 66.04 0)
+			(at 259.08 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14508,7 +14717,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 271.78 60.96 0)
+		(at 274.32 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14519,7 +14728,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd8a1973-b333-4448-b6bd-06debe27cac3")
 		(property "Reference" "#PWR01"
-			(at 271.78 64.77 0)
+			(at 274.32 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14530,7 +14739,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 271.78 55.88 0)
+			(at 274.32 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14540,7 +14749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 60.96 0)
+			(at 274.32 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14551,7 +14760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 60.96 0)
+			(at 274.32 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,7 +14771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 271.78 60.96 0)
+			(at 274.32 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
