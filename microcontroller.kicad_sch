@@ -11828,6 +11828,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 60.96) (xy 33.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bea9e71-50ab-420f-b79c-616008afc679")
+	)
+	(wire
+		(pts
 			(xy 254 86.36) (xy 264.16 86.36)
 		)
 		(stroke
@@ -12095,6 +12105,16 @@
 			(type default)
 		)
 		(uuid "6ae017b4-49ce-4119-88be-3894a089e750")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b32987d-7935-4b11-9d4f-8c0f81db2d15")
 	)
 	(wire
 		(pts
@@ -12986,6 +13006,16 @@
 		)
 		(uuid "3b068afb-ae24-4859-a48d-f9fc258234d1")
 	)
+	(label "USB_OTG_FS_D+"
+		(at 30.48 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ca7b447-bc45-45af-a857-7b94e992b219")
+	)
 	(label "USER_LED"
 		(at 30.48 45.72 180)
 		(effects
@@ -13005,6 +13035,16 @@
 			(justify left bottom)
 		)
 		(uuid "93ad54e9-3d54-4d66-8adf-518aa4ba8dd3")
+	)
+	(label "USB_OTG_FS_D-"
+		(at 30.48 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c83b3aca-af44-4a76-ac5e-5e770966a087")
 	)
 	(label "NRST"
 		(at 109.22 30.48 0)
