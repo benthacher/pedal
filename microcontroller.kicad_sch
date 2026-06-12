@@ -11798,6 +11798,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 68.58) (xy 33.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c3659b-d953-45e3-8217-5d7dec9037d4")
+	)
+	(wire
+		(pts
 			(xy 193.04 147.32) (xy 193.04 149.86)
 		)
 		(stroke
@@ -12235,6 +12245,16 @@
 			(type default)
 		)
 		(uuid "87661e05-225c-4d60-8df5-3f94c6f22129")
+	)
+	(wire
+		(pts
+			(xy 30.48 66.04) (xy 33.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b772e6-2460-4002-9d8d-449714086939")
 	)
 	(wire
 		(pts
@@ -12996,6 +13016,16 @@
 		)
 		(uuid "fe9ac111-3967-42a1-bd81-06e5e8b0fa01")
 	)
+	(label "SWDIO"
+		(at 30.48 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "151545cd-2a44-45a9-a74e-504199269f17")
+	)
 	(label "VDDLDO"
 		(at 210.82 60.96 0)
 		(effects
@@ -13025,6 +13055,16 @@
 			(justify right bottom)
 		)
 		(uuid "56a57e8a-fc14-42a2-af3c-f764bdf3b448")
+	)
+	(label "SWCLK"
+		(at 30.48 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8799d59c-7d36-437a-a5ec-54b97e953fcf")
 	)
 	(label "VDDLDO"
 		(at 266.7 40.64 0)
