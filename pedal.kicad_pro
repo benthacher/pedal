@@ -602,6 +602,18 @@
         "SCK",
         "WS"
       ],
+      "INPUT": [
+        "STICK_X",
+        "STICK_Y",
+        "A",
+        "B",
+        "X",
+        "Y",
+        "START",
+        "SELECT",
+        "R",
+        "L"
+      ],
       "LCD": [
         "nRST",
         "WR",
@@ -689,7 +701,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "R19-22,#PWR70-73",
+    "used_designators": "J1,R19-22,#PWR69-75",
     "variants": []
   },
   "sheets": [
