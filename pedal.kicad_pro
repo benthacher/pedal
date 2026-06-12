@@ -592,6 +592,16 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "I2C": [
+        "SDA",
+        "SCL"
+      ],
+      "I2S": [
+        "SDI",
+        "SDO",
+        "SCK",
+        "WS"
+      ],
       "LCD": [
         "nRST",
         "WR",
@@ -615,6 +625,20 @@
         "DB13",
         "DB14",
         "DB15"
+      ],
+      "SPI": [
+        "COPI",
+        "CIPO",
+        "SCK",
+        "nCS"
+      ],
+      "UART": [
+        "TX",
+        "RX"
+      ],
+      "USB": [
+        "D+",
+        "D-"
       ]
     },
     "connection_grid_size": 50.0,
@@ -665,7 +689,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "R18,#PWR69",
+    "used_designators": "R19-22,#PWR70-73",
     "variants": []
   },
   "sheets": [
