@@ -134,10 +134,10 @@ def easyeda2kicad(
 
     print("moving footprint and model to corresponding directories")
     for footprint in tmp_footprint_dir.glob("*.kicad_mod"):
-        footprint.move_into(footprints_dir)
+        shutil.move(footprint, footprints_dir)
 
     for model in tmp_model_dir.glob("*.step"):
-        model.move_into(models_dir)
+        shutil.move(model, models_dir)
 
     cleanup()
     print("done!")
