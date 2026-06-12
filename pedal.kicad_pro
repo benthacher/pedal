@@ -591,7 +591,32 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "LCD": [
+        "nRST",
+        "WR",
+        "DC",
+        "RD",
+        "nCS",
+        "TE",
+        "DB0",
+        "DB1",
+        "DB2",
+        "DB3",
+        "DB4",
+        "DB5",
+        "DB6",
+        "DB7",
+        "DB8",
+        "DB9",
+        "DB10",
+        "DB11",
+        "DB12",
+        "DB13",
+        "DB14",
+        "DB15"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -620,6 +645,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -632,7 +665,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R18,#PWR69",
     "variants": []
   },
   "sheets": [
@@ -651,6 +684,10 @@
     [
       "fcca89f2-f5d5-44e1-8b43-7ff4c1465bba",
       "display"
+    ],
+    [
+      "0c55a517-3c51-4b5a-883c-0330083d21b9",
+      "MCU Power"
     ]
   ],
   "text_variables": {},
