@@ -8100,7 +8100,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 157.48) (xy 261.62 157.48)
+			(xy 243.84 149.86) (xy 261.62 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8730,7 +8730,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 152.4) (xy 261.62 152.4)
+			(xy 243.84 157.48) (xy 261.62 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8790,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 149.86) (xy 261.62 149.86)
+			(xy 243.84 152.4) (xy 261.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9649,7 +9649,7 @@
 		(uuid "1d271c44-f39b-4263-a35c-0a1db120f75d")
 	)
 	(label "PS_MUX"
-		(at 243.84 149.86 0)
+		(at 243.84 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9989,7 +9989,7 @@
 		(uuid "657bfb78-46f6-4c78-baf6-10295793beab")
 	)
 	(label "PS_MODE"
-		(at 243.84 157.48 0)
+		(at 243.84 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10549,7 +10549,7 @@
 		(uuid "cb2f67c1-2cb5-42b1-a411-57f514400529")
 	)
 	(label "CHARGER_STAT"
-		(at 243.84 152.4 0)
+		(at 243.84 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10821,7 +10821,7 @@
 		(uuid "074d530e-ad60-41f3-957f-02e511d80576")
 	)
 	(hierarchical_label "USB{USB}"
-		(shape input)
+		(shape bidirectional)
 		(at 261.62 119.38 0)
 		(effects
 			(font
@@ -10832,7 +10832,7 @@
 		(uuid "2112d84b-fdfe-403f-ba45-020a2062e75a")
 	)
 	(hierarchical_label "CHARGER_ICHG"
-		(shape input)
+		(shape output)
 		(at 261.62 162.56 0)
 		(effects
 			(font
@@ -10855,7 +10855,7 @@
 	)
 	(hierarchical_label "PS_MUX"
 		(shape input)
-		(at 261.62 149.86 0)
+		(at 261.62 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10865,7 +10865,7 @@
 		(uuid "5b05e38d-32ef-46f0-a075-172927cc7eb6")
 	)
 	(hierarchical_label "CHARGER_nEN"
-		(shape input)
+		(shape output)
 		(at 261.62 160.02 0)
 		(effects
 			(font
@@ -10876,8 +10876,8 @@
 		(uuid "6835e268-c4bb-48cf-8bd1-1b8eb7ed732d")
 	)
 	(hierarchical_label "PS_MODE"
-		(shape input)
-		(at 261.62 157.48 0)
+		(shape output)
+		(at 261.62 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10887,7 +10887,7 @@
 		(uuid "6a24a334-fbcc-4ea9-a63d-1f7585bbcd07")
 	)
 	(hierarchical_label "PEDAL{UART}"
-		(shape input)
+		(shape bidirectional)
 		(at 261.62 111.76 0)
 		(effects
 			(font
@@ -10965,7 +10965,7 @@
 	)
 	(hierarchical_label "CHARGER_STAT"
 		(shape input)
-		(at 261.62 152.4 0)
+		(at 261.62 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
