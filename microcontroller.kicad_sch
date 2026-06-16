@@ -10810,7 +10810,7 @@
 		(uuid "0063fd18-2012-4689-95c6-222ba249e6fa")
 	)
 	(hierarchical_label "IMU{SPI}"
-		(shape input)
+		(shape bidirectional)
 		(at 261.62 127 0)
 		(effects
 			(font
@@ -10843,7 +10843,7 @@
 		(uuid "2ce441c2-3bd0-4ad2-ad19-d08c4780cae2")
 	)
 	(hierarchical_label "IMU_FSYNC"
-		(shape input)
+		(shape output)
 		(at 261.62 142.24 0)
 		(effects
 			(font
