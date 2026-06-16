@@ -701,7 +701,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "J1,R19-22,#PWR69-80,U9,C44",
+    "used_designators": "U10,#PWR38,#PWR40-42,#PWR45-46,C19,C45",
     "variants": []
   },
   "sheets": [
@@ -724,6 +724,10 @@
     [
       "0c55a517-3c51-4b5a-883c-0330083d21b9",
       "MCU Power"
+    ],
+    [
+      "7f612fa3-18e6-43f4-b105-f1a245bcec90",
+      "IMU"
     ]
   ],
   "text_variables": {},

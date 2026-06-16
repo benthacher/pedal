@@ -5,9 +5,129 @@
 	(uuid "e2443317-b83f-4e66-ac79-3186c6d613f3")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 167.64 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280968ce-a0c6-4f98-b014-5538e5f74904")
+	)
+	(bus
+		(pts
+			(xy 124.46 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ac2bf3-18a7-4b7e-afc2-bf47bf2f05c4")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4007c1ff-1441-4a7d-abfe-304b04dd02a8")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402a5425-f223-4cdc-b460-bba16460916d")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb6e4dc-5aff-484a-b25b-e6a0659031bd")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955381f7-4ab3-42d4-97c1-5b9c6d08f1fa")
+	)
+	(bus
+		(pts
+			(xy 124.46 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57b2366-999e-4787-9277-10f5e41a7af3")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f6967f-1ef6-4eb8-92af-0e1a6e1b52a5")
+	)
+	(bus
+		(pts
+			(xy 124.46 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf116bbb-cd6d-4897-9d27-41b11ff2c78c")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01c2323-631b-4295-9c2f-a9ac4e471822")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deba1cb4-b42b-4d52-b249-6db1185a3f4d")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45f8b00-4929-45af-898e-6ea50e14535e")
+	)
 	(sheet
-		(at 142.24 72.39)
-		(size 25.4 10.16)
+		(at 96.52 71.12)
+		(size 27.94 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +142,7 @@
 		)
 		(uuid "487ab5a8-1c1d-4a3e-8f62-a21afc38e9a3")
 		(property "Sheetname" "Power path"
-			(at 142.24 71.6784 0)
+			(at 96.52 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "power_path.kicad_sch"
-			(at 142.24 83.1346 0)
+			(at 96.52 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +161,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CHARGER_ICHG" input
+			(at 124.46 73.66 0)
+			(uuid "c6b0c80c-7b89-435f-bd83-b7054637aa5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHARGER_nEN" input
+			(at 124.46 76.2 0)
+			(uuid "a9421b3a-78aa-4df2-97e2-5a2d2f07557f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHARGER_STAT" output
+			(at 124.46 78.74 0)
+			(uuid "4f5768a2-1720-4f84-a772-d4b29bc555a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FUEL_GAUGE_GPOUT" output
+			(at 124.46 86.36 0)
+			(uuid "6f857d0c-59c5-4796-9f30-497e51ae226a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SBU{UART}" bidirectional
+			(at 124.46 91.44 0)
+			(uuid "380fda2a-a42d-445e-9d9e-4d52e62dd27c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PS_MUX" output
+			(at 124.46 101.6 0)
+			(uuid "e466b945-de4e-40bd-acaa-d017ecd575db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PS_MODE" input
+			(at 124.46 99.06 0)
+			(uuid "4a125acd-8397-4b21-8a88-f13ce91d2469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 124.46 93.98 0)
+			(uuid "7e79be83-b9b1-4fd5-ab82-79b979bafe9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FUEL_GAUGE{I2C}" bidirectional
+			(at 124.46 83.82 0)
+			(uuid "dfe4f7f8-8678-4fd4-b2e6-dba0e671960f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,8 +262,84 @@
 		)
 	)
 	(sheet
-		(at 72.39 72.39)
-		(size 21.59 10.16)
+		(at 172.72 88.9)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f612fa3-18e6-43f4-b105-f1a245bcec90")
+		(property "Sheetname" "IMU"
+			(at 172.72 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 172.72 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU_FSYNC" input
+			(at 172.72 96.52 180)
+			(uuid "25f8d429-ca67-40a1-b179-cf068c8621ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT" output
+			(at 172.72 93.98 180)
+			(uuid "74307064-f1cd-4ab4-b42b-e7e00741ca40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU{SPI}" bidirectional
+			(at 172.72 91.44 180)
+			(uuid "921103cf-f89c-4db8-a33f-5135708956a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 71.12)
+		(size 38.1 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +354,7 @@
 		)
 		(uuid "ec9ceaed-4365-4ca6-bcb7-e0f9b2f8fe0f")
 		(property "Sheetname" "microcontroller"
-			(at 72.39 71.6784 0)
+			(at 129.54 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +365,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 72.39 83.1346 0)
+			(at 129.54 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +373,166 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CHARGER_ICHG" output
+			(at 129.54 73.66 180)
+			(uuid "323454b8-8493-426f-8b76-155ec24c48ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHARGER_nEN" output
+			(at 129.54 76.2 180)
+			(uuid "fe027ff3-59c3-485b-a1d0-ae73b1b23f4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHARGER_STAT" input
+			(at 129.54 78.74 180)
+			(uuid "dd378c2d-6132-4ca1-afff-ec55d81f0935")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CODEC{I2C}" bidirectional
+			(at 167.64 73.66 0)
+			(uuid "748ed11e-f241-4715-854b-bdbd62689679")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CODEC{I2S}" bidirectional
+			(at 167.64 76.2 0)
+			(uuid "e198ba01-41a8-40fb-8802-8d73ea3082a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FUEL_GAUGE_GPOUT" input
+			(at 129.54 86.36 180)
+			(uuid "9a1e95cb-f885-4d92-927e-be590e0707f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FUEL_GAUGE{I2C}" bidirectional
+			(at 129.54 83.82 180)
+			(uuid "8f717c69-8192-4be8-98d5-e69787851c76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_FSYNC" output
+			(at 167.64 96.52 0)
+			(uuid "18eb3bd1-66d4-40fd-a496-2c772d290911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 167.64 93.98 0)
+			(uuid "6934c81d-d0c2-4510-8374-47732cb5af3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU{SPI}" bidirectional
+			(at 167.64 91.44 0)
+			(uuid "1651fa3a-ab86-4ec8-97e2-4d2abff401e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT{INPUT}" input
+			(at 167.64 114.3 0)
+			(uuid "f0d9a81f-181d-4979-a760-d469a7c4cd24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD{LCD}" bidirectional
+			(at 129.54 114.3 180)
+			(uuid "b12be3c4-3fc2-4357-b01c-f7c6d3eb2e36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PEDAL{UART}" bidirectional
+			(at 129.54 91.44 180)
+			(uuid "0e31af64-29ff-4072-a832-346db567432c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PS_MODE" output
+			(at 129.54 99.06 180)
+			(uuid "d9aea216-b4cb-4f65-95e7-e76a136cda5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PS_MUX" input
+			(at 129.54 101.6 180)
+			(uuid "e3a15374-f175-4cc9-ac30-77b6bbd94909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 129.54 93.98 180)
+			(uuid "22ea83f1-6998-4921-96b7-06db65d42d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -98,8 +544,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 96.52)
-		(size 20.32 10.16)
+		(at 96.52 111.76)
+		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +560,7 @@
 		)
 		(uuid "fcca89f2-f5d5-44e1-8b43-7ff4c1465bba")
 		(property "Sheetname" "display"
-			(at 71.12 95.8084 0)
+			(at 96.52 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +571,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 71.12 107.2646 0)
+			(at 96.52 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
