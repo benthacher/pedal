@@ -701,7 +701,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "U10-11,#PWR38,#PWR40-42,#PWR45-48,#PWR54,C19-20,C45",
+    "used_designators": "U12",
     "variants": []
   },
   "sheets": [
