@@ -701,7 +701,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "U12-14,T1,#PWR64,#PWR69,#PWR81-109",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -728,6 +728,10 @@
     [
       "7f612fa3-18e6-43f4-b105-f1a245bcec90",
       "IMU"
+    ],
+    [
+      "a1bbde72-fd3e-4fef-8e82-ce5db1c82ed5",
+      "Codec"
     ]
   ],
   "text_variables": {},

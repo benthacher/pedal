@@ -107,6 +107,16 @@
 	)
 	(bus
 		(pts
+			(xy 167.64 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca50cec6-dd65-40e8-ab0b-5381145e68f1")
+	)
+	(bus
+		(pts
 			(xy 124.46 91.44) (xy 129.54 91.44)
 		)
 		(stroke
@@ -144,6 +154,16 @@
 			(type default)
 		)
 		(uuid "f45f8b00-4929-45af-898e-6ea50e14535e")
+	)
+	(bus
+		(pts
+			(xy 167.64 73.66) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f965f621-18d9-444f-b1b0-bb9d977f6b30")
 	)
 	(sheet
 		(at 96.52 71.12)
@@ -353,6 +373,72 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 71.12)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1bbde72-fd3e-4fef-8e82-ce5db1c82ed5")
+		(property "Sheetname" "Codec"
+			(at 172.72 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 172.72 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CODEC{I2C}" bidirectional
+			(at 172.72 73.66 180)
+			(uuid "bd42a67e-8c0e-4b08-a6b7-ed133ef210c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CODEC{I2S}" bidirectional
+			(at 172.72 76.2 180)
+			(uuid "911a3f0f-6f33-4a8d-95a6-d089a27b74f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3"
+					(page "7")
 				)
 			)
 		)

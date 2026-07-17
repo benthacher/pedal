@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3d1e9bc7-6d49-49b9-a9c6-45dfc1e3b5c3")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 40.64 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e65d7b-0664-48ef-b16b-de72fda302a5")
+	)
+	(bus_entry
+		(at 40.64 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4369bc84-66ca-4382-965e-a1564d90170e")
+	)
+	(bus_entry
+		(at 40.64 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eeecd66-c529-4123-be51-567687096464")
+	)
+	(bus_entry
+		(at 40.64 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6cbd20-2625-49eb-83d2-113cc647074e")
+	)
+	(bus_entry
+		(at 40.64 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51813d0-4db7-4787-93b9-0a1756d8df9d")
+	)
+	(bus_entry
+		(at 40.64 71.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9765a6-cbb7-4161-b355-1ed7d28d4051")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16731c91-4efa-455e-8192-6db540668d68")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 43.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26099f0d-b5a8-471e-8e48-7fab9332e049")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 43.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50830884-7382-45b8-8861-69f4359ddb9b")
+	)
+	(bus
+		(pts
+			(xy 40.64 66.04) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7efa08-5be3-41a8-9753-8b06560aa468")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e813857-8d7d-4faf-8aba-996ae6a1e1bd")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 43.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9399edf7-c31a-46c2-b494-72d7c00adc24")
+	)
+	(bus
+		(pts
+			(xy 40.64 78.74) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50374b8-56a7-4c53-b18f-fddafcd23fd5")
+	)
+	(wire
+		(pts
+			(xy 58.42 71.12) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ef26d3-8ac4-4bfc-844c-992a1f5a8a2e")
+	)
+	(label "CODEC.SDA"
+		(at 58.42 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17f9c5b5-5f69-40e0-b678-4667968e8e14")
+	)
+	(label "CODEC.SDI"
+		(at 58.42 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48743b56-c8ef-4d0d-a284-2a343df40119")
+	)
+	(label "CODEC.WS"
+		(at 58.42 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cbea1b2-f265-4065-86ab-5c8266f7c753")
+	)
+	(label "CODEC.SCK"
+		(at 58.42 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7aa390ad-b809-461a-8c40-0e6f2ec3969c")
+	)
+	(label "CODEC.SDO"
+		(at 58.42 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99675b4f-24e7-4c11-9d2c-9ad834ab2b87")
+	)
+	(label "CODEC.SCL"
+		(at 58.42 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4ae9d84-6e02-4a61-beee-d1023c1d2589")
+	)
+	(hierarchical_label "CODEC{I2C}"
+		(shape bidirectional)
+		(at 40.64 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53eabf9d-6dd0-4ae5-9904-2e62cf65a3dd")
+	)
+	(hierarchical_label "CODEC{I2S}"
+		(shape bidirectional)
+		(at 40.64 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70bdf0f0-4ef7-4120-a112-7fccc4f893ef")
+	)
+)
