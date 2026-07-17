@@ -6857,6 +6857,17 @@
 		)
 		(uuid "b453c4f1-dcec-42ef-88c3-0255bfeaff91")
 	)
+	(text "TIM1_CH1"
+		(exclude_from_sim no)
+		(at 43.18 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b883a62f-3f83-48ff-aee7-ed770daf0faa")
+	)
 	(text "skip EXTI0 in case tearing\neffect timer doesnt work out"
 		(exclude_from_sim no)
 		(at 190.5 76.2 0)
@@ -7264,10 +7275,6 @@
 	(no_connect
 		(at 43.18 96.52)
 		(uuid "93189e62-e5a0-427e-9bb1-1b385167b790")
-	)
-	(no_connect
-		(at 43.18 53.34)
-		(uuid "9a8a0cd2-0e73-4ebc-b71a-ca6955483613")
 	)
 	(no_connect
 		(at 43.18 137.16)
@@ -8100,6 +8107,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 15.24) (xy 261.62 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e64c7d-ed04-490f-b232-1f7506f43fe9")
+	)
+	(wire
+		(pts
 			(xy 243.84 149.86) (xy 261.62 149.86)
 		)
 		(stroke
@@ -8527,6 +8544,16 @@
 			(type default)
 		)
 		(uuid "5b5c2530-8043-429e-8f91-9277458c6e33")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 43.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd159c5-4a04-4fb3-b631-1bda0eef65e7")
 	)
 	(wire
 		(pts
@@ -9808,6 +9835,16 @@
 		)
 		(uuid "3a1a00a0-fcfb-458b-b05a-fea8e66e7dec")
 	)
+	(label "BACKLIGHT_EN"
+		(at 243.84 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40ae435f-2b11-4916-9e0a-caee6f963115")
+	)
 	(label "SWO"
 		(at 33.02 83.82 180)
 		(effects
@@ -10217,6 +10254,16 @@
 			(justify right bottom)
 		)
 		(uuid "9943d205-ca28-4b2b-a25a-0c5a4ba32020")
+	)
+	(label "BACKLIGHT_EN"
+		(at 27.94 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d010af7-55df-45f1-afa6-16aea63213d1")
 	)
 	(label "FUEL_GAUGE.SCL"
 		(at 241.3 104.14 0)
@@ -10841,6 +10888,17 @@
 			(justify left)
 		)
 		(uuid "2ce441c2-3bd0-4ad2-ad19-d08c4780cae2")
+	)
+	(hierarchical_label "BACKLIGHT_EN"
+		(shape output)
+		(at 261.62 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38d5350b-f49b-4f84-a0d5-33e26b531f81")
 	)
 	(hierarchical_label "IMU_FSYNC"
 		(shape output)
