@@ -701,7 +701,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "U15-17,#PWR110-124,C46-51,R18,R23",
+    "used_designators": "#PWR123-126,C53,R24,R26",
     "variants": []
   },
   "sheets": [
