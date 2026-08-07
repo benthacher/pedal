@@ -701,7 +701,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "C53",
+    "used_designators": "C51,C53-61,U16,#PWR118,#PWR125,#PWR130-137,R25,R27-35",
     "variants": []
   },
   "sheets": [
