@@ -2746,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 162.56) (xy 40.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b241ad7-16f2-48d0-986f-a8514e9731ed")
+	)
+	(wire
+		(pts
 			(xy 139.7 86.36) (xy 137.16 86.36)
 		)
 		(stroke
@@ -4794,7 +4804,7 @@
 	)
 	(symbol
 		(lib_id "custom:PJ-3537S")
-		(at 46.99 166.37 0)
+		(at 31.75 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4805,7 +4815,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b790942-e5f6-4fe4-9512-7e31ec106952")
 		(property "Reference" "CN1"
-			(at 44.83 157.48 0)
+			(at 29.59 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4815,7 +4825,7 @@
 			)
 		)
 		(property "Value" "IN"
-			(at 44.83 160.02 0)
+			(at 29.59 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4825,7 +4835,7 @@
 			)
 		)
 		(property "Footprint" "custom:AUDIO-SMD_PJ-3537S"
-			(at 46.99 180.34 0)
+			(at 31.75 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2689709.pdf"
-			(at 46.99 182.88 0)
+			(at 31.75 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 166.37 0)
+			(at 31.75 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,7 +4868,7 @@
 			)
 		)
 		(property "Manufacturer" "XKB Connection(中国星坤)"
-			(at 46.99 185.42 0)
+			(at 31.75 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +4879,7 @@
 			)
 		)
 		(property "MPN" "PJ-3537S-SMT"
-			(at 46.99 187.96 0)
+			(at 31.75 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,7 +4890,7 @@
 			)
 		)
 		(property "LCSC Part" "C2689709"
-			(at 46.99 190.5 0)
+			(at 31.75 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4901,7 @@
 			)
 		)
 		(property "LCSC" "C2689709"
-			(at 46.99 195.58 0)
+			(at 31.75 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4920,6 +4930,107 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/a1bbde72-fd3e-4fef-8e82-ce5db1c82ed5"
 					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bcd39d8-c309-41e4-96f6-aa314eab27a7")
+		(property "Reference" "C50"
+			(at 66.0807 182.4637 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 66.0807 188.6269 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 66.04 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 66.04 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 66.04 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfca0bc9-14de-4c51-93d3-37588060569a")
+		)
+		(pin "2"
+			(uuid "2af1b5bd-48cb-4437-852d-07ec6a33c821")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/a1bbde72-fd3e-4fef-8e82-ce5db1c82ed5"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -6520,8 +6631,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 175.26 0)
-		(mirror y)
+		(at 40.64 162.56 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6532,7 +6643,7 @@
 		(fields_autoplaced yes)
 		(uuid "895b499a-101c-48ba-9e80-6a90d263b427")
 		(property "Reference" "#PWR0135"
-			(at 55.88 181.61 0)
+			(at 46.99 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,17 +6654,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 180.34 0)
+			(at 44.45 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 175.26 0)
+			(at 40.64 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 175.26 0)
+			(at 40.64 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +6687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 175.26 0)
+			(at 40.64 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
