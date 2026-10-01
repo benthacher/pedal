@@ -1,0 +1,319 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "49f37532-6768-44fe-9b46-01c73def8839")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 40.64 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abdad2b-b26b-41df-88e3-c073c9686c3d")
+	)
+	(bus_entry
+		(at 40.64 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158369ab-ba8c-41c9-87e1-eb50300082b5")
+	)
+	(bus_entry
+		(at 40.64 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a18637-d330-4446-9962-e7068e1263be")
+	)
+	(bus_entry
+		(at 40.64 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea92584-e67c-49d0-9828-5b0756120ad0")
+	)
+	(bus_entry
+		(at 40.64 86.36)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca55885-eca0-4863-a1e9-62e73385bebb")
+	)
+	(bus_entry
+		(at 40.64 91.44)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4490e1-ad61-4a59-9f75-22b5a8e81ad2")
+	)
+	(bus_entry
+		(at 40.64 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7695a434-8262-42d3-9473-20b80d21a26a")
+	)
+	(bus_entry
+		(at 40.64 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797491d4-18be-4e83-82b4-fe7578bdbe5d")
+	)
+	(bus_entry
+		(at 40.64 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b73414-a1cb-4237-be0d-bd4627bece06")
+	)
+	(bus_entry
+		(at 40.64 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c41fb63-0e5f-4971-b0fd-47668b9d9d1a")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 43.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bab5300-8ead-4306-9089-7c90cb0c9a3b")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159b7435-dd50-4e2b-8f5b-36a1391fc383")
+	)
+	(bus
+		(pts
+			(xy 40.64 71.12) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dc088c-62c6-405d-9afb-36aeef5e057a")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 43.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70433f62-22e4-440c-af16-9297adccc29d")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 43.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80468e7b-fb39-409a-9696-e6ac41c31723")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 43.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3414f03-2e31-4766-b75b-207e01594fda")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 43.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd280e77-672b-45da-96df-9fc42aa1cdab")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 43.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc74903c-e0d0-4152-b826-d64de92e586f")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ef50cf-88b2-4a0c-a262-43a5c834a659")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d45e54-ac40-4f1d-8942-c727bdfe168c")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56e9a7c-4088-43fe-b2fe-d3b179900054")
+	)
+	(label "INPUT.STICK_Y"
+		(at 58.42 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16548abe-b5e5-495e-8ec4-870befc2cbdc")
+	)
+	(label "INPUT.L"
+		(at 58.42 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fdc3647-7444-4435-99e7-76524fdac796")
+	)
+	(label "INPUT.B"
+		(at 58.42 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32c9c6e3-9429-4855-967b-38e3afd952e5")
+	)
+	(label "INPUT.STICK_X"
+		(at 58.42 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "476414ed-f85f-4131-a735-6102daabe856")
+	)
+	(label "INPUT.R"
+		(at 58.42 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "507ac7cf-b41d-40a4-8673-69b9d8554689")
+	)
+	(label "INPUT.A"
+		(at 58.42 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "812fad44-264c-40da-845e-25274a8ae072")
+	)
+	(label "INPUT.X"
+		(at 58.42 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8876e57f-8cde-4c9e-a5df-0ffd673992f8")
+	)
+	(label "INPUT.Y"
+		(at 58.42 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a55f6cea-f08a-4362-9c2a-0d98d950d5d1")
+	)
+	(label "INPUT.SELECT"
+		(at 58.42 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca8dca10-582a-445e-8892-83d2f99614e0")
+	)
+	(label "INPUT.START"
+		(at 58.42 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4a1742a-b4d2-438f-9ad4-f1358f3b5108")
+	)
+	(hierarchical_label "INPUT{INPUT}"
+		(shape output)
+		(at 40.64 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec41191b-338e-485e-b690-42f087ca840b")
+	)
+)

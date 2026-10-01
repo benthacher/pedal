@@ -107,6 +107,16 @@
 	)
 	(bus
 		(pts
+			(xy 167.64 116.84) (xy 172.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa583075-eb2d-4a07-bdd2-047c4d8e0184")
+	)
+	(bus
+		(pts
 			(xy 124.46 93.98) (xy 129.54 93.98)
 		)
 		(stroke
@@ -214,6 +224,62 @@
 			(type default)
 		)
 		(uuid "f965f621-18d9-444f-b1b0-bb9d977f6b30")
+	)
+	(sheet
+		(at 172.72 114.3)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08cc2b29-85b9-4aa1-81ca-cf2350ffd532")
+		(property "Sheetname" "Input"
+			(at 172.72 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input.kicad_sch"
+			(at 172.72 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT{INPUT}" output
+			(at 172.72 116.84 180)
+			(uuid "10ecda83-0239-406c-89b9-2609787945bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3"
+					(page "8")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 96.52 71.12)
@@ -682,7 +748,7 @@
 			)
 		)
 		(pin "INPUT{INPUT}" input
-			(at 167.64 114.3 0)
+			(at 167.64 116.84 0)
 			(uuid "f0d9a81f-181d-4979-a760-d469a7c4cd24")
 			(effects
 				(font

@@ -717,7 +717,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "#PWR135,#PWR139,#PWR146,J7-9,U16",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -748,6 +748,10 @@
     [
       "a1bbde72-fd3e-4fef-8e82-ce5db1c82ed5",
       "Codec"
+    ],
+    [
+      "08cc2b29-85b9-4aa1-81ca-cf2350ffd532",
+      "Input"
     ]
   ],
   "text_variables": {},
