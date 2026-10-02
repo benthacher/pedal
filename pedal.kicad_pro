@@ -717,7 +717,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "SW2-7,R32-54,C64-75,#PWR140-142,#PWR144,#PWR147-170",
+    "used_designators": "SW2-9,R32-54,C64-75,#PWR140-142,#PWR144,#PWR147-172",
     "variants": []
   },
   "sheets": [

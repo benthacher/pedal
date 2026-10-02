@@ -381,6 +381,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:TS-24CA-S26"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-24CA-S26"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "custom:SW-SMD_L4.7-W3.5-P3.35-EH"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42420265.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JXTCONN(聚兴泰)"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TS-24CA-S26"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C42420265"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C42420265"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS-24CA-S26_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.03 0)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 1.52) (xy -2.03 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.03 0)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -496,6 +721,22 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(no_connect
+		(at 104.14 160.02)
+		(uuid "0419ad3d-8e04-42c9-b132-6713061f96aa")
+	)
+	(no_connect
+		(at 114.3 160.02)
+		(uuid "6df77c0b-0ab4-4d8d-8354-45d40c785651")
+	)
+	(no_connect
+		(at 104.14 147.32)
+		(uuid "70ad4cb5-b920-4f43-a7ca-a6f0266534f0")
+	)
+	(no_connect
+		(at 114.3 147.32)
+		(uuid "f8b5ac56-2601-47e2-8cf2-840e29886d24")
 	)
 	(bus_entry
 		(at 40.64 76.2)
@@ -729,6 +970,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 157.48) (xy 104.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5d2a97-6b84-4adb-9475-a573b581d96e")
+	)
+	(wire
+		(pts
 			(xy 73.66 81.28) (xy 88.9 81.28)
 		)
 		(stroke
@@ -759,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 142.24) (xy 88.9 142.24)
+			(xy 73.66 144.78) (xy 88.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -809,6 +1060,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 157.48) (xy 114.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9bf815-3c0e-491f-8a83-c4a687bde9cc")
+	)
+	(wire
+		(pts
 			(xy 58.42 99.06) (xy 43.18 99.06)
 		)
 		(stroke
@@ -826,6 +1087,16 @@
 			(type default)
 		)
 		(uuid "cd280e77-672b-45da-96df-9fc42aa1cdab")
+	)
+	(wire
+		(pts
+			(xy 116.84 144.78) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75a4d97-aab1-447c-91ec-fdd30bae0092")
 	)
 	(wire
 		(pts
@@ -859,7 +1130,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 152.4) (xy 88.9 152.4)
+			(xy 101.6 144.78) (xy 104.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e892f041-536c-4a47-93cc-4d79be1677ed")
+	)
+	(wire
+		(pts
+			(xy 73.66 157.48) (xy 88.9 157.48)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +1249,7 @@
 		(uuid "507ac7cf-b41d-40a4-8673-69b9d8554689")
 	)
 	(label "INPUT.L"
-		(at 73.66 142.24 0)
+		(at 73.66 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +1319,7 @@
 		(uuid "a55f6cea-f08a-4362-9c2a-0d98d950d5d1")
 	)
 	(label "INPUT.R"
-		(at 73.66 152.4 0)
+		(at 73.66 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1377,6 +1658,136 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:TS-24CA-S26")
+		(at 109.22 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44621406-c4f6-4921-a4dd-f4275e04af5f")
+		(property "Reference" "SW9"
+			(at 109.22 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 109.22 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SW-SMD_L4.7-W3.5-P3.35-EH"
+			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42420265.pdf"
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JXTCONN(聚兴泰)"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-24CA-S26"
+			(at 109.22 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42420265"
+			(at 109.22 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42420265"
+			(at 109.22 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "34f60f88-d8ba-4424-9c6b-e4bafef16a4d")
+		)
+		(pin "1"
+			(uuid "3402f401-cfef-4b91-9064-3370b11bc9f3")
+		)
+		(pin "2"
+			(uuid "7797eb5b-51db-43b6-a68c-4f186a4be5f2")
+		)
+		(pin "4"
+			(uuid "97db70be-42b3-4f6f-b304-cd37d06c0a7c")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/08cc2b29-85b9-4aa1-81ca-cf2350ffd532"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "custom:TS-1088-AR02016")
 		(at 109.22 121.92 0)
 		(unit 1)
@@ -1575,6 +1986,85 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/08cc2b29-85b9-4aa1-81ca-cf2350ffd532"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71cd6859-c5fe-4935-afbd-f2cea1cae456")
+		(property "Reference" "#PWR0172"
+			(at 123.19 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 157.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d95c77d8-02ef-4c2d-9f77-12d2ab5d06e3")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/08cc2b29-85b9-4aa1-81ca-cf2350ffd532"
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -2124,6 +2614,136 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:TS-24CA-S26")
+		(at 109.22 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae1981f6-bbc4-4093-adb6-f4ed608dec1f")
+		(property "Reference" "SW8"
+			(at 109.22 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 109.22 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SW-SMD_L4.7-W3.5-P3.35-EH"
+			(at 109.22 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42420265.pdf"
+			(at 109.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JXTCONN(聚兴泰)"
+			(at 109.22 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-24CA-S26"
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42420265"
+			(at 109.22 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42420265"
+			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1ec9fa5c-ec4c-4c7f-914b-ddb6edb54f34")
+		)
+		(pin "1"
+			(uuid "ed666bd4-532e-44d5-840f-e8c3313709b9")
+		)
+		(pin "2"
+			(uuid "12f9bc13-2f0d-49a7-8aaa-e5f771028d44")
+		)
+		(pin "4"
+			(uuid "9c1c37b7-3443-4ff4-b069-b2cabb4423a2")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/08cc2b29-85b9-4aa1-81ca-cf2350ffd532"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "custom:TL3315NF100Q")
 		(at 109.22 101.6 0)
 		(unit 1)
@@ -2248,6 +2868,85 @@
 			(project "pedal"
 				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/08cc2b29-85b9-4aa1-81ca-cf2350ffd532"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b294ad01-0b99-4732-95bc-00c506085ec4")
+		(property "Reference" "#PWR0171"
+			(at 123.19 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdcafe82-1d89-4bb6-a0de-727fa9057266")
+		)
+		(instances
+			(project "pedal"
+				(path "/e2443317-b83f-4e66-ac79-3186c6d613f3/08cc2b29-85b9-4aa1-81ca-cf2350ffd532"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -2668,7 +3367,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 149.86)
+		(at 88.9 154.94)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2684,7 +3383,7 @@
 		)
 		(uuid "9e7ef8af-33b6-41d4-950e-29ca0f5a19bc")
 		(property "Sheetname" "Debounce8"
-			(at 88.9 149.1484 0)
+			(at 88.9 154.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2695,7 +3394,7 @@
 			)
 		)
 		(property "Sheetfile" "debounce.kicad_sch"
-			(at 88.9 155.5246 0)
+			(at 88.9 160.6046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +3406,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 101.6 152.4 0)
+			(at 101.6 157.48 0)
 			(uuid "7328448f-3de9-4af4-8fde-e1642c7b839c")
 			(effects
 				(font
@@ -2717,7 +3416,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 88.9 152.4 180)
+			(at 88.9 157.48 180)
 			(uuid "9b85b160-3c20-4c17-8e05-77497750c638")
 			(effects
 				(font
@@ -2735,7 +3434,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 139.7)
+		(at 88.9 142.24)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2751,7 +3450,7 @@
 		)
 		(uuid "d1f7dbf6-58aa-4f7e-8a98-9b343c116364")
 		(property "Sheetname" "Debounce7"
-			(at 88.9 138.9884 0)
+			(at 88.9 141.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2762,7 +3461,7 @@
 			)
 		)
 		(property "Sheetfile" "debounce.kicad_sch"
-			(at 88.9 145.3646 0)
+			(at 88.9 147.9046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +3473,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 101.6 142.24 0)
+			(at 101.6 144.78 0)
 			(uuid "d2cb4c2e-d9e9-462c-b165-05e880b712a0")
 			(effects
 				(font
@@ -2784,7 +3483,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 88.9 142.24 180)
+			(at 88.9 144.78 180)
 			(uuid "d4a8f38a-a8c1-4768-9d9e-4af9aba72b06")
 			(effects
 				(font
