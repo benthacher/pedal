@@ -717,7 +717,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R32-38,C64-67,#PWR140-142,#PWR148-151",
     "variants": []
   },
   "sheets": [
@@ -752,6 +752,18 @@
     [
       "08cc2b29-85b9-4aa1-81ca-cf2350ffd532",
       "Input"
+    ],
+    [
+      "4c22a4e9-863a-4116-bdb6-63d664a4292f",
+      "Debounce1"
+    ],
+    [
+      "c7bc8354-4577-4f46-ad94-b8195a354180",
+      "Debounce2"
+    ],
+    [
+      "5ebc036a-1f8f-46a9-b5d1-ebabc5a7e5f8",
+      "Debounce3"
     ]
   ],
   "text_variables": {},
