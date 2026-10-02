@@ -717,7 +717,7 @@
         "uuid": "e2443317-b83f-4e66-ac79-3186c6d613f3"
       }
     ],
-    "used_designators": "R32-38,C64-67,#PWR140-142,#PWR148-151",
+    "used_designators": "SW2-7,R32-54,C64-75,#PWR140-142,#PWR144,#PWR147-170",
     "variants": []
   },
   "sheets": [
@@ -764,6 +764,38 @@
     [
       "5ebc036a-1f8f-46a9-b5d1-ebabc5a7e5f8",
       "Debounce3"
+    ],
+    [
+      "24d60361-3370-44ad-88df-7f067c4a89f9",
+      "Debounce1"
+    ],
+    [
+      "94183d09-d252-4744-b2a1-51f80f1daa54",
+      "Debounce2"
+    ],
+    [
+      "30ff93b2-9c77-4a10-8b70-e2d38cabc23d",
+      "Debounce3"
+    ],
+    [
+      "113d6eb1-d787-4bde-aeea-3b686f86928a",
+      "Debounce4"
+    ],
+    [
+      "e87d1f28-ed03-40a1-b111-b01404004c38",
+      "Debounce5"
+    ],
+    [
+      "7aa8d5d4-6cdc-47ee-9e8f-839e8028a7b9",
+      "Debounce6"
+    ],
+    [
+      "d1f7dbf6-58aa-4f7e-8a98-9b343c116364",
+      "Debounce7"
+    ],
+    [
+      "9e7ef8af-33b6-41d4-950e-29ca0f5a19bc",
+      "Debounce8"
     ]
   ],
   "text_variables": {},
