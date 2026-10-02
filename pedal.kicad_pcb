@@ -14253,12 +14253,6 @@
 		(path "/08cc2b29-85b9-4aa1-81ca-cf2350ffd532/0336dea4-0551-42f9-9fd3-d621bb8d8cf3")
 		(sheetname "/Input/")
 		(sheetfile "input.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14341,6 +14335,36 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "09129267-0837-4f08-98ae-2ca0fb19f7ee")
+		)
+		(fp_line
+			(start 0 2.6)
+			(end -0.3 2.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "ec80b089-fcd1-4ce1-bd56-9ad1b52d657e")
+		)
+		(fp_line
+			(start 0 2.6)
+			(end 0.3 2.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "ca64288a-bbc1-4dea-baf4-da0a8d00b8e4")
+		)
+		(fp_line
+			(start 0 3.4)
+			(end 0 2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "b036b1b5-3136-4023-bf8f-0b73430df4e0")
 		)
 		(fp_line
 			(start -2 -1.9)
@@ -14473,6 +14497,18 @@
 			(layer "F.Fab")
 			(uuid "e786804c-bc73-4e72-bb4e-1a5c436f970b")
 		)
+		(fp_text user "Cable Entry"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "Dwgs.User")
+			(uuid "c26eadd5-2efd-4559-b9dd-765d8e11c10b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(pad "1" smd rect
 			(at -0.75 -1.2)
 			(size 0.3 0.9)
@@ -14534,24 +14570,6 @@
 			(uuid "cbc7bb7a-7e41-467f-a79b-f67c392da9dc")
 		)
 		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "59453-042110ECHLF--3DModel-STEP-56544.STEP")
-				(type model)
-				(checksum "AB00D165CB0C7DD772A749E87C1DFF45")
-			)
-		)
-		(model "kicad-embed://59453-042110ECHLF--3DModel-STEP-56544.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
