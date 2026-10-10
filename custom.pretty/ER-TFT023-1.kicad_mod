@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "69e06df7-e2cb-42e4-854b-443b69f0dd8b")
+		(uuid "88322251-19e2-4401-863e-f3418bd4ec8b")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "15f36a37-af5f-4324-9a04-a235197a564c")
+		(uuid "63694838-1a6c-4397-9f7a-d5ed9a78a1d6")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "88dae0ce-1382-494f-ae4d-4e42bcd86de1")
+		(uuid "35af8913-0a89-4034-8e12-04ab5dd0acc4")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "877086f7-0402-415d-892c-4e9c99003b5c")
+		(uuid "1611ff6e-ace4-4ba1-a312-c7e14aa90031")
 		(effects
 			(font
 				(size 1 1)
@@ -56,51 +56,46 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -24.68 -18.83)
-		(end -24.68 18.83)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "8da2dabe-5f41-4ff1-b187-8e6a78a03c87")
-	)
-	(fp_line
-		(start -24.68 -18.83)
-		(end 24.68 -18.83)
+	(fp_rect
+		(start -25.45 -19.98)
+		(end 25.45 25.82)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Dwgs.User")
-		(uuid "15ac0633-30e1-4159-8287-ea37cc9b6d45")
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bec03447-4221-4ab5-bfdc-e38d58623a11")
 	)
-	(fp_line
-		(start -24.68 18.83)
-		(end 24.68 18.83)
+	(fp_rect
+		(start -24.675 -18.83)
+		(end 24.675 18.83)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "Dwgs.User")
-		(uuid "ad8e827b-984b-4caa-90b9-ea9030fa22ea")
+		(uuid "9e19db6b-6371-4cc1-8077-872cee2beb72")
 	)
-	(fp_line
-		(start 24.68 -18.83)
-		(end 24.68 18.83)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
+	(fp_text user "screen"
+		(at -24.675 -18.83 0)
+		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "a247791a-0b1b-4a19-87c8-320dc77e21c0")
+		(uuid "6093629e-ba74-48ca-8648-c640ce97fd71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b5d71c6c-bde9-4d46-b3a1-6147a1e3f03d")
+		(uuid "4ab16542-ba80-497c-af00-4f626ad3b52a")
 		(effects
 			(font
 				(size 1 1)

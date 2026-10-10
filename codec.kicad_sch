@@ -5123,26 +5123,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33113562-6d78-4ed8-a926-a11b1ea26a51")
 		(property "Reference" "J8"
-			(at 271.78 58.42 0)
+			(at 269.24 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "PJ-342 141"
-			(at 271.78 60.96 0)
+		(property "Value" "L_OUT"
+			(at 269.24 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "custom:AUDIO-SMD_PJ-342-141"
@@ -6333,7 +6334,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ-342 141"
+		(property "Value" "IN"
 			(at 25.4 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,26 +7171,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c68a05c-133f-4d7a-a9ff-8719405b309d")
 		(property "Reference" "J9"
-			(at 271.78 91.44 0)
+			(at 269.24 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "PJ-342 141"
-			(at 271.78 93.98 0)
+		(property "Value" "R_OUT"
+			(at 269.24 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "custom:AUDIO-SMD_PJ-342-141"
